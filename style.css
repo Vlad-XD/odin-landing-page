@@ -97,6 +97,50 @@ button {
   align-items: center;
 }
 
+/* Information section */
+.info-section {
+  color: #1F2937;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 400px 100px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 48px;
+  white-space: nowrap;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: center;
+}
+
+.img-container {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  border: 5px solid #3882F6;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 8px;
+}
+
+.img-container .subtext {
+  font-size: 15px;
+  text-align: center;
+}
+
 /* Quote section */
 .quote-section {
   display: flex;
