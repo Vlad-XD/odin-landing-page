@@ -97,6 +97,36 @@ button {
   align-items: center;
 }
 
+/* Quote section */
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  color: #1F2937;
+  padding: 150px 400px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  align-self: flex-start;
+  width: 830px;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 900;
+  align-self: flex-end;
+}
+
 /* Call To Action (CTA) section */
 .cta-section {
   display: flex;
