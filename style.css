@@ -2,6 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  display:flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-height: 100vh;
 }
 
 button {
@@ -25,6 +30,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
   padding: 0px 200px;
 }
 
@@ -38,6 +44,11 @@ button {
   color: #E5E7EB;
 }
 
+.header,
+.hero-content{
+  width: 1100px;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -45,8 +56,6 @@ button {
   padding: 20px 0px;
   /* The text in our header should not wrap when screen is squished */
   white-space: nowrap;
-  /* We want a gap between logo and links even if website is squished */
-  gap: 75px;
 }
 
 .header .logo {
@@ -90,7 +99,7 @@ button {
 .hero-content img {
   display: flex;
   flex-shrink: 0;
-  width: 500px;
+  width: 600px;
   height: auto;
   background-color: #6D747D;
   justify-content: center;
@@ -206,11 +215,11 @@ button {
   padding: 5px 30px;
 }
 
-
 /* Footer section */
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 40px 0px;
+  flex-grow: 1;
 }
